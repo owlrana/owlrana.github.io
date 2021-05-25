@@ -10850,6 +10850,9 @@ p {
 .page-section {
   padding: 6rem 0;
 }
+.page-section-INSIDE {
+  padding: 1rem;
+}
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
@@ -10963,6 +10966,18 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+header.mastheadCHUBB {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/header-bg-CHUBB.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -11249,6 +11264,11 @@ header.masthead .masthead-heading {
 }
 .team-member {
   margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member-button {
+  margin-top: -2.5rem;
+  margin-bottom: -2.5rem;
   text-align: center;
 }
 .team-member img {
