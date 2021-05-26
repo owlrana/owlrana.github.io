@@ -10977,7 +10977,17 @@ header.mastheadCHUBB {
   background-position: center center;
   background-size: cover;
 }
-
+header.mastheadCFC {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/header-bg-CFC.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
